@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>TuneInToEnglish</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container1">
+        <div class="nav">
+          <div class="logo">
+            <span
+              ><span style="color: darkorchid">Tune</span
+              ><span style="color: darkorange">In</span
+              ><span style="color: rgb(255, 0, 0)">To</span
+              ><span style="color: #0000ff">English</span>
+            </span>
+          </div>
+          <img style="position: absolute; width:488px; height:150px; left:1px" src="./styles/flower-removebg-preview.png" alt="">
+          <img style="position: absolute; width:488px; height:150px; left:477px" src="./styles/flower-removebg-preview.png" alt="">
+          <img style="position: absolute; width:488px; height:150px; left:950px" src="./styles/flower-removebg-preview.png" alt="">
+          <a style="z-index: 1; position:relative; left:340px" href="https://tuneintoenglishnis.github.io/home/" class="nav__link btn">Main</a>
+            <a style="position: relative; left:100px" href="https://tuneintoenglishnis.github.io/g7u1t2/" class="nav__link btn">Next</a>
+        </div>
+      </div>
+    </header>
+    <header class="header1">
+      <div class="container1">
+        <div class="nav">
+         <div class="logo1"> <span > Grade 7. Concept 'Development'</span>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ<span class="aaa">Unit 1. Hobbies and Leisure.</span></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="task">
+        <h1 style="position: absolute; left: 33px; top: 230px; color: #cc0000;"> 'The Hobby Song for kids'</h1>
+         <h1 style="position: absolute; left: 33px; top: 300px;"> <span style="color: #0000ff;"> BEFORE  LISTENING </span><br>
+             <br>
+                   <span style="font-weight: 900;">Note!</span> <br>
+               <span>
+              <span style="color: #0000ff;">I / You/ We/ They </span>–<span style="color: #cc0000;"> Verb</span> <br>
+               <span style="color: #0000ff;">He / She/ It</span> –  <span style="color: #cc0000;">Verb + s (es)</span>
+
+               </span> <br>
+                  <br>
+                <span style="color: #0000ff;">LISTENING PART 1</span>
+           </h1>
+           <h1 style="top: 510px;"><span style="font-weight: 900;">Task 1</span> :Complete the table below.</h1>
+           <h1 style="top: 545px;">The verb “<span style="color: #cc0000; font-weight: 800;">like</span>”</h1>
+           <h1 style="top: 590px;"><span style="color: #0000ff;">Singular</span>   <br>
+            I <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="missingword" id="answer1"> <br>
+            You <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="missingword" id="answer2"> <br>
+            He <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="missingword" id="answer3"> <br>
+            She <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="missingword" id="answer4"> <br>
+            It <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="missingword" id="answer5"> <br><br><button style="position: absolute; " class="btn" onclick="checkAnswer1()"> Check Answers</button>
+            </h1>
+            <h1 style="top: 590px; left: 300px;">
+               <span style="color: #0000ff;">Plural</span> <br>
+We <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="missingword" id="answer6"> <br>
+You <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="missingword" id="answer7"> <br>
+They <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="missingword" id="answer8"></h1>
+<script>
+    function checkAnswer1(){
+        var answer1 = document.getElementById("answer1").value;
+        if (answer1 === "like") {document.getElementById("answer1").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("answer1").style.backgroundColor = "red";}
+        var answer2 = document.getElementById("answer2").value;
+        if (answer2 === "like") {document.getElementById("answer2").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("answer2").style.backgroundColor = "red";}
+        var answer3 = document.getElementById("answer3").value;
+        if (answer3 === "likes") {document.getElementById("answer3").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("answer3").style.backgroundColor = "red";}
+        var answer4 = document.getElementById("answer4").value;
+        if (answer4 === "likes") {document.getElementById("answer4").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("answer4").style.backgroundColor = "red";}
+        var answer5 = document.getElementById("answer5").value;
+        if (answer5 === "likes") {document.getElementById("answer5").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("answer5").style.backgroundColor = "red";}
+        var answer6 = document.getElementById("answer6").value;
+        if (answer6 === "like") {document.getElementById("answer6").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("answer6").style.backgroundColor = "red";}
+        var answer7 = document.getElementById("answer7").value;
+        if (answer7 === "like") {document.getElementById("answer7").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("answer7").style.backgroundColor = "red";}
+        var answer8 = document.getElementById("answer8").value;
+        if (answer8 === "like") {document.getElementById("answer8").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("answer8").style.backgroundColor = "red";}
+    }
+</script>
+            <h1 style="top: 890px;"><span style="font-weight: 900;">Task 2</span> :Match the hobbies with pictures.</h1>
+            <h1 style="top: 925px;">1.	singing <br>
+                2.	playing with marbles <br>
+                3.	taking photographs  <br>
+                4.	go fishing <br>
+                5.	playing tennis <br>
+                6.	swimming <br>
+                7.	flying kite <br>
+                8.	playing chess <br>
+                9.	playing the guitar <br>
+                10.	riding bike <br>
+                11.	playing basketball <br><br>
+                1.<input style="width: 28px; height: 28px; font-size: 22px;" type="text" name="a" id="a1">
+                2.<input style="width: 28px; height: 28px; font-size: 22px;" type="text" name="a" id="a2">
+                3.<input style="width: 28px; height: 28px; font-size: 22px;" type="text" name="a" id="a3">
+                4.<input style="width: 28px; height: 28px; font-size: 22px;" type="text" name="a" id="a4">
+                5.<input style="width: 28px; height: 28px; font-size: 22px;" type="text" name="a" id="a5">
+                6.<input style="width: 28px; height: 28px; font-size: 22px;" type="text" name="a" id="a6"> <br> <br>
+                7.<input style="width: 28px; height: 28px; font-size: 22px;" type="text" name="a" id="a7">
+                8.<input style="width: 28px; height: 28px; font-size: 22px;" type="text" name="a" id="a8">
+                9.<input style="width: 28px; height: 28px; font-size: 22px;" type="text" name="a" id="a9">
+                10.<input style="width: 28px; height: 28px; font-size: 22px;" type="text" name="a" id="a10">
+                11.<input style="width: 28px; height: 28px; font-size: 22px;" type="text" name="a" id="a11"> <br> <br>
+                <button style="position: absolute;" class="btn" onclick="checkAnswer2()">Check Asnwers</button>
+                </h1>
+                <h1 style="left: 600px; top: 870px;">
+                    A. <img style="width: 150px; height: 150px; border-radius:130px;" src="./imagesvideos/Рисунок1.jpg" alt=""> 
+                    B. <img style="width: 150px; height: 150px; border-radius:130px;" src="./imagesvideos/Рисунок2.jpg" alt=""> 
+                    C. <img style="width: 150px; height: 150px; border-radius:130px;" src="./imagesvideos/Рисунок3.jpg" alt=""> 
+                    D. <img style="width: 150px; height: 150px; border-radius:130px;" src="./imagesvideos/Рисунок4.jpg" alt="">  <br>
+                    E. <img style="width: 150px; height: 150px; border-radius:130px;" src="./imagesvideos/Рисунок5.jpg" alt="">
+                    F. <img style="width: 150px; height: 150px; border-radius:130px;" src="./imagesvideos/Рисунок6.jpg" alt=""> 
+                    G. <img style="width: 150px; height: 150px; border-radius:130px;" src="./imagesvideos/Рисунок7.jpg" alt=""> 
+                    H. <img style="width: 150px; height: 150px; border-radius:130px;" src="./imagesvideos/Рисунок8.jpg" alt="">  <br>
+                    I.ㅤ<img style="width: 150px; height: 150px; border-radius:130px;" src="./imagesvideos/Рисунок9.jpg" alt=""> 
+                    J. <img style="width: 150px; height: 150px; border-radius:130px;" src="./imagesvideos/Рисунок10.jpg" alt="">
+                    K. <img style="width: 150px; height: 150px; border-radius:130px;" src="./imagesvideos/Рисунок 11.jpg" alt=""></h1>
+                    <script>
+                        function checkAnswer2(){
+                            var a1 = document.getElementById("a1").value;
+        if (a1 === "G") {document.getElementById("a1").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("a1").style.backgroundColor = "red";}
+        var a2 = document.getElementById("a2").value;
+        if (a2 === "D") {document.getElementById("a2").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("a2").style.backgroundColor = "red";}
+        var a3 = document.getElementById("a3").value;
+        if (a3 === "A") {document.getElementById("a3").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("a3").style.backgroundColor = "red";}
+        var a4 = document.getElementById("a4").value;
+        if (a4 === "C") {document.getElementById("a4").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("a4").style.backgroundColor = "red";}
+        var a5 = document.getElementById("a5").value;
+        if (a5 === "B") {document.getElementById("a5").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("a5").style.backgroundColor = "red";}
+        var a6 = document.getElementById("a6").value;
+        if (a6 === "I") {document.getElementById("a6").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("a6").style.backgroundColor = "red";}
+        var a7 = document.getElementById("a7").value;
+        if (a7 === "J") {document.getElementById("a7").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("a7").style.backgroundColor = "red";}
+        var a8 = document.getElementById("a8").value;
+        if (a8 === "E") {document.getElementById("a8").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("a8").style.backgroundColor = "red";}
+        var a9 = document.getElementById("a9").value;
+        if (a9 === "F") {document.getElementById("a9").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("a9").style.backgroundColor = "red";}
+        var a10 = document.getElementById("a10").value;
+        if (a10 === "K") {document.getElementById("a10").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("a10").style.backgroundColor = "red";}
+        var a11 = document.getElementById("a11").value;
+        if (a11 === "H") {document.getElementById("a11").style.backgroundColor = "lightgreen";} 
+        else {document.getElementById("a11").style.backgroundColor = "red";}
+                        }
+                    </script>
+                    <h1 style="top: 1470px;"><span style="font-weight: 900;">Task 3</span>:Listen to the song and write the hobbies you hear.</h1>
+                    <h1 style="top: 1505px;">
+                        What do you like to do? <br>
+                        What’s your hobby? <br>
+                        What about you? <br>
+                         <br>
+                        Do you play the 1) <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="b" id="w1"> ? <br>
+                        Do you like to 2) <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="b" id="w2">? <br>
+                        Do you take 3) <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="b" id="w3"> or go 4) <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="b" id="w4"> <br>
+                        Do you like playing 5) <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="b" id="w5">? <br>
+                        Do you play 6) <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="b" id="w6">? <br>
+                        Do you like every sport? <br>
+                        Do you play them all? <br>
+                         <br>
+                        What do you like to do? <br>
+                        What’s your hobby? <br>
+                        What about you? <br>
+                         <br>
+                        My favourite hobby is playing 7) <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="b" id="w7">. <br>
+                        I like to play with 8) <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="b" id="w8">, <br>
+                        Because they’re the best! <br>
+                        I don’t like 9) <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="b" id="w9">, <br>
+                         I like riding my 10) <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="b" id="w10">. <br>
+                        I like 11) <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="b" id="w11"> and like flying my 12) <input style="width: 100px; height: 28px; font-size: 22px;" type="text" name="b" id="w12">! <br>
+                         <br>
+                        What does she like to do? <br>
+                        What’s her hobby? <br>
+                        What about you? <br>
+                         <br>
+                        His favourite hobby is playing chess. <br>
+                        Ihe likes to play with marbles, <br>
+                        Because they’re the best! <br>
+                        She doesn’t like swimming, <br>
+                        She likes riding her bike. <br>
+                        She likes basketball and likes flying her kite! <br><br>
+                        <button class="btn" onclick="Checkw111()">Check Answers</button></h1>
+                        <script>
+                            function Checkw111(){
+                                var w1= document.getElementById('w1').value;
+                                if(w1 === "guitar"){document.getElementById("w1").style.backgroundColor = "lightgreen"}
+                                else{document.getElementById("w1").style.backgroundColor = "red"}
+                                var w2= document.getElementById('w2').value;
+                                if(w2 === "sing"){document.getElementById("w2").style.backgroundColor = "lightgreen"}
+                                else{document.getElementById("w2").style.backgroundColor = "red"}
+                                var w3= document.getElementById('w3').value;
+                                if(w3 === "photographs"){document.getElementById("w3").style.backgroundColor = "lightgreen"}
+                                else{document.getElementById("w3").style.backgroundColor = "red"}
+                                var w4= document.getElementById('w4').value;
+                                if(w4 === "fishing"){document.getElementById("w4").style.backgroundColor = "lightgreen"}
+                                else{document.getElementById("w4").style.backgroundColor = "red"}
+                                var w5= document.getElementById('w5').value;
+                                if(w5 === "tennis"){document.getElementById("w5").style.backgroundColor = "lightgreen"}
+                                else{document.getElementById("w5").style.backgroundColor = "red"}
+                                var w6= document.getElementById('w6').value;
+                                if(w6 === "volleybal"){document.getElementById("w6").style.backgroundColor = "lightgreen"}
+                                else{document.getElementById("w6").style.backgroundColor = "red"}
+                                var w7= document.getElementById('w7').value;
+                                if(w7 === "chess"){document.getElementById("w7").style.backgroundColor = "lightgreen"}
+                                else{document.getElementById("w7").style.backgroundColor = "red"}
+                                var w8= document.getElementById('w8').value;
+                                if(w8 === "marbles"){document.getElementById("w8").style.backgroundColor = "lightgreen"}
+                                else{document.getElementById("w8").style.backgroundColor = "red"}
+                                var w9= document.getElementById('w9').value;
+                                if(w9 === "swimming"){document.getElementById("w9").style.backgroundColor = "lightgreen"}
+                                else{document.getElementById("w9").style.backgroundColor = "red"}
+                                var w10= document.getElementById('w10').value;
+                                if(w10 === "bike"){document.getElementById("w10").style.backgroundColor = "lightgreen"}
+                                else{document.getElementById("w10").style.backgroundColor = "red"}
+                                var w11= document.getElementById('w11').value;
+                                if(w11 === "basketball"){document.getElementById("w11").style.backgroundColor = "lightgreen"}
+                                else{document.getElementById("w11").style.backgroundColor = "red"}
+                                var w12= document.getElementById('w12').value;
+                                if(w12 === "kite"){document.getElementById("w12").style.backgroundColor = "lightgreen"}
+                                else{document.getElementById("w12").style.backgroundColor = "red"}
+                            }
+                        </script>
+                        <div class="container">
+                            <button type="button" class="btn">Show lyrics</button>
+                            <div class="content">
+                                What do you like to do? <br>
+                                What’s your hobby? <br>
+                                What about you? <br>
+                                
+                                Do you play the <span style="color: #cc0000; font-weight: 900;">guitar</span>? <br>
+                                Do you like to <span style="color: #cc0000; font-weight: 900;">sing</span>? <br>
+                                Do you take <span style="color: #cc0000; font-weight: 900;">photographs</span> or go <span style="color: #cc0000; font-weight: 900;">fishing</span>? <br>
+                                Do you like playing <span style="color: #cc0000; font-weight: 900;">tennis</span>? <br>
+                                Do you play <span style="color: #cc0000; font-weight: 900;">volleyball</span>? <br>
+                                Do you like every sport? <br>
+                                Do you play them all? <br>
+                                 <br>
+                                What do you like to do? <br>
+                                What’s your hobby? <br>
+                                What about you? <br>
+                                 <br>
+                                My favourite hobby is playing <span style="color: #cc0000; font-weight: 900;">chess</span>. <br>
+                                I like to play with <span style="color: #cc0000; font-weight: 900;">marbles</span>, <br>
+                                Because they’re the best! <br>
+                                I don’t like <span style="color: #cc0000; font-weight: 900;">swimming</span>, <br>
+                                 I like riding my <span style="color: #cc0000; font-weight: 900;">bike</span>. <br>
+                                I like <span style="color: #cc0000; font-weight: 900;">basketball</span> and like flying my <span style="color: #cc0000; font-weight: 900;">kite</span>! <br>
+                                 <br>
+                                What does she like to do? <br>
+                                What’s her hobby? <br>
+                                What about you? <br>
+                                 <br>
+                                His favourite hobby is playing chess. <br>
+                                Ihe likes to play with marbles, <br>
+                                Because they’re the best! <br>
+                                She doesn’t like swimming, <br>
+                                She likes riding her bike. <br>
+                                She likes basketball and likes flying her kite!
+                                </div>
+                        </div>
+                        <div style="position: relative; top:2510px" class="container">
+                          <button type="button" class="btn">Links</button>
+                          <div style="top: 20px;" class="content">
+                            <a href="https://www.youtube.com/watch?v=xjX1qfRNvds">https://www.youtube.com/watch?v=xjX1qfRNvds</a>
+                          </div>
+                        </div>
+         <h1 style="position: absolute; left: 33px; top: 2570px;"> <span style="color: #0000ff;"> AFTER  LISTENING </span><br>
+                    <h1 style="top: 2615px;">Think about your hobbies and write 6-7 sentences about it.</h1>
+                    <video class="video" src="./imagesvideos/English Song for Kids  - Hobbies.mp4" controls></video>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
